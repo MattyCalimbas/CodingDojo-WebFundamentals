@@ -1,0 +1,195 @@
+* {
+	vertical-align: baseline;
+	font-weight: inherit;
+	font-family: inherit;
+	font-style: inherit;
+	font-size: 100%;
+	border: 0 none;
+	outline: 0;
+	padding: 0;
+	margin: 0;
+
+}
+#container{
+    width:1000px;
+    background: radial-gradient(rgb(109, 87, 98), rgb(105, 84, 94), rgb(29, 12, 17));
+    min-height: 1000px;
+    margin: 0 auto;
+    
+
+}
+#h1{
+    text-align:left;
+    font-size: 30px;
+    font-weight: bold;
+    position: absolute;
+    transform: translateY(50%); /*I know I wasn't supposed to use stackoverflow but..*/
+    font-family: 'Courier New', Courier, monospace;
+    display: inline;
+    padding-left: 40px;
+
+
+}      
+#h2{
+    font-size: 20px;
+    text-align:right;
+    padding: 0px;
+    top:5%;
+    transform: translateY(100%); 
+    padding-right:30px;
+    font-weight: bold;
+    font-family: Arial, Helvetica, sans-serif;
+  
+
+}
+.left{
+    min-height: 55px;
+    background-color:whitesmoke;
+    width: 1000px;
+    left: 0px;  
+  
+   
+}  
+.photo{
+    display: inline-block;
+    border: solid 8px rgb(171, 170, 175);
+    margin-top: 15px;
+    margin-left: 15px;
+    margin-right: 20px;
+    height: 276px;
+    position: relative;
+
+
+}
+#photome img{
+    height: 276px;
+    width: 418px;
+
+
+}
+.about{
+    width: 510px;
+    height: 276px;
+    display: inline-block;
+    vertical-align: top;
+    margin-top: 15px;
+
+
+}  
+#aboutheader{
+    height: 40px;
+    background: linear-gradient(darkgray, grey, darkgrey);
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    font-size: 20px;
+    line-height: 40px;
+    padding-left: 10px;
+    
+
+}
+#details{
+    height: 252px;
+    background: white;
+    font-family: Arial, Helvetica, sans-serif
+
+
+}
+p{
+    padding: 10px;
+
+
+}    
+#continue {
+    padding: 10px;
+
+
+}
+.tallbox {
+    width: 310px;
+    height: 600px;
+    background: white;
+    padding: 0px;
+    margin-left: 15px;
+    margin-top: 25px;
+    display: inline-block;
+    vertical-align:top;
+
+}
+.tallboxphoto img{
+    width: 310px;
+
+}
+.tallboxhead {
+    height: 40px;
+    background: linear-gradient(darkgray, grey, darkgrey);
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    font-size: 20px;
+    line-height: 40px;
+    padding-left: 10px;
+
+}
+.tallboxtext{
+    display: inline-block;
+    font-family: "Arial", "Helvetica", sans-serif;
+    font-size: 15px;
+    /* padding-bottom: 15px; */
+    height:190px;
+     
+}  
+.techheader{
+    display:inline-block;
+    height: 40px;
+    background: linear-gradient(darkgray, grey, darkgrey);
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    font-size: 20px;
+    line-height: 40px;
+    padding-left: 10px;
+    width: 300px;
+    
+}
+.techicons{
+    padding-top: 10px;
+}
+.techicons img{
+    display: inline-block;
+    width: 40px;
+    margin-left: 10px;
+    margin-bottom: 5px;
+
+
+}
+.button{
+    text-align: center;
+}
+.button input{
+    color: white;
+    background-color: forestgreen;
+    border-radius: 10px;
+    padding: 5px;
+    box-shadow: 2px 2px 1px black;
+    outline: none;
+
+}
+#footer{
+    width: auto;
+    height: 100px;
+    background-color: white;
+    font-family: "Arial", "Helvetica", sans-serif;
+    text-align: center;
+    margin-top: 15px;
+
+}
+#info{
+    text-align: center;
+    display: inline-block;
+    font-style: italic;
+    
+}
+#info img{
+    width: 20px;
+}
